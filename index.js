@@ -13,7 +13,6 @@ function playGame() {
     async.series([
         (callback) => {
             readline.question('Pick rock, paper or scissors?', answer => {
-                    // let x = "rock";
                     
                     const choices = ["rock", "paper", "scissors"]
                     const randomChoice = choices[Math.floor(Math.random() * 3)]
