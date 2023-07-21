@@ -1,23 +1,3 @@
-// // const playGame = () => {
-// //     const x = prompt('Please enter rock, paper or scissors. ')
-// //     return x
-// // }
-
-// // // module.exports = {
-// // //     playGame
-// // // }
-
-// // console.log(playGame)
-
-// // function playGame(x) {
-// //     const x = prompt('Please enter rock, paper or scissors. ')
-// //     return x
-// // }
-
-// const prompt = require('prompt-sync')
-
-
-
 
 const readline = require('readline').createInterface({
     input: process.stdin,
